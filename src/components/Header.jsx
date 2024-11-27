@@ -22,9 +22,9 @@ function Header() {
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
-                        <a href="/home" className="about text-sm/6 font-semibold text-gray-900">Comment ça marche</a>
-                        <a href="/contact" className="text-sm/6 font-semibold text-gray-900">Contact</a>
-                        <a href="/faq" className="text-sm/6 font-semibold text-gray-900">FAQ</a>
+                        <a href="#about" className="about text-sm/6 font-semibold text-gray-900">Comment ça marche</a>
+                        <a href="#contact" className="text-sm/6 font-semibold text-gray-900">Contact</a>
+                        <a href="#faq" className="text-sm/6 font-semibold text-gray-900">FAQ</a>
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                         <button
@@ -49,9 +49,9 @@ function Header() {
                         <div className="mt-6 flow-root">
                             <div className="-my-6 divide-y divide-gray-500/10">
                                 <div className="space-y-2 py-6">
-                                    <a href="/home" className="about text-sm/6 font-semibold text-gray-900">Comment ça marche</a>
-                                    <a href="/contact" className="text-sm/6 font-semibold text-gray-900">Contact</a>
-                                    <a href="/faq" className="text-sm/6 font-semibold text-gray-900">FAQ</a>
+                                    <a href="#about" className="about text-sm/6 font-semibold text-gray-900">Comment ça marche</a>
+                                    <a href="#contact" className="text-sm/6 font-semibold text-gray-900">Contact</a>
+                                    <a href="#faq" className="text-sm/6 font-semibold text-gray-900">FAQ</a>
                                 </div>
                                 <div className="py-6">
                                     <button

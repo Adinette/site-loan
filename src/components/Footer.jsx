@@ -16,13 +16,13 @@ function Footer() {
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Liens rapides</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                    <a href="/about" class="hover:underline">Comment ça marche</a>
+                                    <a href="#about" class="hover:underline">Comment ça marche</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="/contact" class="hover:underline">Contact</a>
+                                    <a href="#contact" class="hover:underline">Contact</a>
                                 </li>
                                 <li>
-                                    <a href="/faq" class="hover:underline">FAQ</a>
+                                    <a href="#faq" class="hover:underline">FAQ</a>
                                 </li>
                             </ul>
                         </div>
