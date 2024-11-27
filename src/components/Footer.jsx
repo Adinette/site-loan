@@ -6,7 +6,7 @@ function Footer() {
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
-                        <a href="/" class="flex items-center">
+                        <a href="/home" class="flex items-center">
                             <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
                             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
                         </a>
@@ -44,13 +44,13 @@ function Footer() {
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Informations légales</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Mentions légales.</a>
+                                    <a href="/home" class="hover:underline">Mentions légales.</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Conditions générales d’utilisation.</a>
+                                    <a href="/home" class="hover:underline">Conditions générales d'utilisation.</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="hover:underline">Politique de confidentialité.</a>
+                                    <a href="/home" class="hover:underline">Politique de confidentialité.</a>
                                 </li>
                             </ul>
                         </div>
@@ -82,7 +82,7 @@ function Footer() {
                     </span>
                 </div>
                 <div className="flex justify-center items-center">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline"></a>. All Rights Reserved.
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024. All Rights Reserved.
                 </span>
                 </div>
             </div>

@@ -14,7 +14,7 @@ function Contact() {
         <h2 className="text-balance text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl">Contact</h2>
         <p className="mt-2 text-lg/8 text-gray-600">Formulaire de contact</p>
       </div>
-      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form action="" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm/6 font-semibold text-gray-900">
@@ -133,18 +133,14 @@ function Contact() {
               </Switch>
             </div>
             <Label className="text-sm/6 text-gray-600">
-              By selecting this, you agree to our{' '}
-              <a href="#" className="font-semibold text-indigo-600">
-                privacy&nbsp;policy
-              </a>
-              .
+              By selecting this, you agree to our privacy policy.
             </Label>
           </Field>
           <div className="text-sm/6 text-gray-600">
-            Heures d’ouverture :
-            <a href="#" className="font-semibold text-indigo-600">
+            Heures d'ouverture :
+            <span  className="font-semibold text-indigo-600">
               Disponible du lundi au vendredi, de 9h à 18h.
-            </a>
+            </span>
             .
           </div>
         </div>
